@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/cart.js"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+<!--外部容器-->
+<div id="box">
+    <!--1. 页面顶部-->
+    <div id="top">
+        <!--1.1 左列logo-->
+        <img src="../images/header/logo.png" id="logo">
+        <!--1.2 中间搜索框-->
+        <div class="search">
+            <input type="text" placeholder="请输入您要搜索的内容">
+            <img src="../images/header/search.png">
+        </div>
+        <!--13. 右列导航-->
+        <ul>
+            <li>
+                <img src="../images/header/care.png">
+            </li>
+            <li>
+                <img src="../images/header/order.png">
+            </li>
+            <li>
+                <img src="../images/header/shop_car.png">
+            </li>
+            <li>
+                <a href="">帮助</a>
+            </li>
+            <li>
+                <a href="login.html">登录</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--2. 导航-->
+    <div id="nav">
+        <a href="">首页</a>
+        <a href="">私人订制</a>
+    </div>
+
+    <!--6. 主体商品展示-->
+    <div id="main">
+        <h2>
+            购物车
+            <p>
+                已选择：<span class="total-num">0</span>件商品 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                共计：<span class="total-price">0元</span>
+            </p>
+        </h2>
+        <div class="title">
+            <!--            标题-->
+            <p class="check">
+                <img src="../images/cart/product_normal.png" class="checkAll">
+                全选
+            </p>
+            <p class="gname">
+                商品
+            </p>
+            <p class="gprice">
+                单价
+            </p>
+            <p class="gcount">
+                数量
+            </p>
+            <p class="gsum">
+                金额
+            </p>
+            <p class="action">
+                操作
+            </p>
+
+        </div>
+        <div class="content">
+            <!--            商品展示-->
+            <div class="item">
+                <p class="check">
+                    <img src="../images/cart/product_normal.png" class="checkImg">
+                </p>
+                <p class="gname">
+                    <img src="../images/cart/product_simg1.png">
+                    <span>行李箱</span>
+                    <span>颜色:灰色</span>
+                    <span>规格:</span>
+                </p>
+                <p class="gprice">
+                    <b>皮粉专享价</b>
+                    <span>￥288</span>
+                </p>
+                <p class="gcount">
+                    <a href="javascript:void (0)" class="minus">-</a>
+                    <input type="text" value="1">
+                    <a href="javascript:void (0)" class="add">+</a>
+                </p>
+                <p class="gsum">
+                    <b>￥288</b>
+                </p>
+                <p class="action">
+                    移除
+                </p>
+            </div>
+            <div class="item">
+                <p class="check">
+                    <img src="../images/cart/product_normal.png" class="checkImg">
+                </p>
+                <p class="gname">
+                    <img src="../images/cart/product_simg1.png">
+                    <span>行李箱</span>
+                    <span>颜色:灰色</span>
+                    <span>规格:</span>
+                </p>
+                <p class="gprice">
+                    <b>皮粉专享价</b>
+                    <span>￥288</span>
+                </p>
+                <p class="gcount">
+                    <a href="javascript:void (0)" class="minus">-</a>
+                    <input type="text" value="1">
+                    <a href="javascript:void (0)" class="add">+</a>
+                </p>
+                <p class="gsum">
+                    <b>￥288</b>
+                </p>
+                <p class="action">
+                    移除
+                </p>
+            </div>
+            <div class="item">
+                <p class="check">
+                    <img src="../images/cart/product_normal.png" class="checkImg">
+                </p>
+                <p class="gname">
+                    <img src="../images/cart/product_simg1.png">
+                    <span>行李箱</span>
+                    <span>颜色:灰色</span>
+                    <span>规格:</span>
+                </p>
+                <p class="gprice">
+                    <b>皮粉专享价</b>
+                    <span>￥288</span>
+                </p>
+                <p class="gcount">
+                    <a href="javascript:void (0)" class="minus">-</a>
+                    <input type="text" value="1">
+                    <a href="javascript:void (0)" class="add">+</a>
+                </p>
+                <p class="gsum">
+                    <b>￥288</b>
+                </p>
+                <p class="action">
+                    移除
+                </p>
+            </div>
+        </div>
+        <div class="tool">
+            <button>去结算</button>
+        </div>
+    </div>
+
+    <!--7. 底部-->
+    <div id="footer">
+        <div>
+            <img src="../images/footer/icon1.png">
+            <p>品质保障</p>
+        </div>
+        <div>
+            <img src="../images/footer/icon2.png">
+            <p>私人订制</p>
+        </div>
+        <div>
+            <img src="../images/footer/icon3.png">
+            <p>皮粉特供</p>
+        </div>
+        <div>
+            <img src="../images/footer/icon4.png">
+            <p>专属特权</p>
+        </div>
+
+    </div>
+
+    <!--8. 公用底部-->
+    <div id="bottom">
+        <!--右侧-->
+        <div class="download">
+            <img src="../images/footer/erweima.png" class="erweima">
+            <p>皮爷の商城客户端</p>
+            <img src="../images/footer/android.png" class="android">
+            <img src="../images/footer/ios.png">
+        </div>
+        <!--正常结构-->
+        <img src="../images/footer/logo.png" class="footerLogo">
+        <img src="../images/footer/footerFont.png" class="footerFont">
+        <p>
+            ©2018皮爷の集团有限公司 版权所有 京IPC证xxxxxxxxx
+        </p>
+    </div>
+
+
+</div>
+</body>
+</html>
